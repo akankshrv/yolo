@@ -111,3 +111,9 @@ def test(S=7, B=2, C=20):
     print(model(x).shape)
 
 test()
+
+#Input image (4D tensor) 
+# 2. Pass through convolutional layers (CNNBlock and MaxPooling) 
+# 3. Flatten the output 
+# 4. Pass through fully connected layers 
+# 5. Output tensor with predictions.
